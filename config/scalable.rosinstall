@@ -1,0 +1,8 @@
+# THIS IS THE MAIN ROSINSTALL FILE FOR SCALABLE
+
+### TOOLS
+- git: {local-name: system_setup/scalable_system_setup, uri: 'https://github.com/ScalABLE40/scalable_system_setup.git'}
+
+### DRIVERS
+
+### SKIROS

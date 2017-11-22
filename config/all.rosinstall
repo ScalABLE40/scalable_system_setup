@@ -1,0 +1,10 @@
+# THIS IS THE FULL ROSINSTALL FILE FOR SCALABLE
+
+### TOOLS
+- git: {local-name: system_setup/scalable_system_setup, uri: 'https://github.com/ScalABLE40/scalable_system_setup.git'}
+- git: {local-name: tools/rosmon, uri: 'https://github.com/xqms/rosmon.git'}
+
+### DRIVERS
+- git: {local-name: drivers/iiwa_stack, uri: 'https://github.com/SalvoVirga/iiwa_stack.git', version: 'master'}
+
+### SKIROS
