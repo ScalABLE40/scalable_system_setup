@@ -6,3 +6,6 @@
 ### DRIVERS
 
 ### SKIROS
+- git: {local-name: skiros2/skiros2, uri: 'https://github.com/RVMI/skiros2.git'}
+- git: {local-name: skiros2/skiros2_std_lib, uri: 'https://github.com/RVMI/skiros2_std_lib.git'}
+- git: {local-name: skiros2/skiros2_template_lib, uri: 'https://github.com/RVMI/skiros2_template_lib.git'}
