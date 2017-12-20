@@ -1,6 +1,14 @@
-###  SCALABLE system setup
+SCALABLE system setup
+=======
 
 Last update: 20/12/2017  
+
+### Fresh install
+
+To initialize your SCALABLE workspace run:
+
+> cd scalable_workspace  
+> wstool init src https://github.com/ScalABLE40/scalable_system_setup/raw/master/config/scalable.rosinstall 
 
 ### Bash commands
 
@@ -8,6 +16,6 @@ After running catkin make some bash commands will be available. (check them out 
 
 To update the workspace run:  
 
-  <code>scalable update my.rosinstall </code>
+> scalable update my.rosinstall
 
 The default rosinstall is <code>scalable.rosinstall</code>. See all rosinstall in <code>scalable_system_setup/config</code>.
