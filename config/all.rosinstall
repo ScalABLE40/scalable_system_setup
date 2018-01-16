@@ -1,14 +1,14 @@
 # THIS IS THE FULL ROSINSTALL FILE FOR SCALABLE
 
 ### TOOLS
-- git: {local-name: system_setup/scalable_system_setup, uri: 'https://github.com/ScalABLE40/scalable_system_setup.git'}
-- git: {local-name: tools/rosmon, uri: 'https://github.com/xqms/rosmon.git'}
+- git: {local-name: system_setup/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
+- git: {local-name: tools/rosmon, uri: 'git@github.com:xqms/rosmon.git'}
 
 ### DRIVERS
-- git: {local-name: drivers/iiwa_stack, uri: 'https://github.com/SalvoVirga/iiwa_stack.git', version: 'master'}
+- git: {local-name: drivers/iiwa_stack, uri: 'git@github.com:SalvoVirga/iiwa_stack.git', version: 'master'}
 
 ### SKIROS
-- git: {local-name: skiros2/skiros2, uri: 'https://github.com/RVMI/skiros2.git'}
-- git: {local-name: skiros2/skiros2_std_lib, uri: 'https://github.com/RVMI/skiros2_std_lib.git'}
-- git: {local-name: skiros2/skiros2_template_lib, uri: 'https://github.com/RVMI/skiros2_template_lib.git'}
-- git: {local-name: skiros2/skiros2_test_lib, uri: 'https://github.com/RVMI/skiros2_test_lib.git'}
+- git: {local-name: skiros2/skiros2, uri: 'git@github.com:RVMI/skiros2.git'}
+- git: {local-name: skiros2/skiros2_std_lib, uri: 'git@github.com:RVMI/skiros2_std_lib.git'}
+- git: {local-name: skiros2/skiros2_template_lib, uri: 'git@github.com:RVMI/skiros2_template_lib.git'}
+- git: {local-name: skiros2/skiros2_test_lib, uri: 'git@github.com:RVMI/skiros2_test_lib.git'}
