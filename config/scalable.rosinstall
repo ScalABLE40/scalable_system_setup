@@ -6,7 +6,7 @@
 ### DRIVERS
 
 ### SKIROS
-- git: {local-name: skiros2/skiros2, uri: 'git@github.com:RVMI/skiros2.git'}
-- git: {local-name: skiros2/skiros2_std_lib, uri: 'git@github.com:RVMI/skiros2_std_lib.git'}
-- git: {local-name: skiros2/skiros2_template_lib, uri: 'git@github.com:RVMI/skiros2_template_lib.git'}
-- git: {local-name: skiros2/skiros2_test_lib, uri: 'git@github.com:RVMI/skiros2_test_lib.git'}
+- git: {local-name: skiros2/skiros2, uri: 'git@github.com:ScalABLE40/skiros2.git'}
+- git: {local-name: skiros2/skiros2_std_lib, uri: 'git@github.com:ScalABLE40/skiros2_std_lib.git'}
+- git: {local-name: skiros2/skiros2_template_lib, uri: 'git@github.com:ScalABLE40/skiros2_template_lib.git'}
+- git: {local-name: skiros2/skiros2_test_lib, uri: 'git@github.com:ScalABLE40/skiros2_test_lib.git'}
