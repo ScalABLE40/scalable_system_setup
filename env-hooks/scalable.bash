@@ -14,11 +14,11 @@ function scalable() {
 	    ;;
 	l|launch)
 	    shift
-	    roslaunch scalable_system_setup $*
+	    roslaunch scalable_launch $*
 	    ;;
 	L|LAUNCH)
 	    shift
-	    rosrun rosmon rosmon --name=rosmon scalable_system_setup $*
+	    rosrun rosmon rosmon --name=rosmon scalable_launch $*
 	    ;;
   u|update)
 	    shift
@@ -48,7 +48,7 @@ function _scalable() {
 		    COMPREPLY=( $(compgen -W "${packages}" -- $cur) )
 		    ;;
 		l|launch|L|LAUNCH)
-		    local launchfiles=$(find $(rospack find scalable_system_setup) -name '*.launch' -type f -printf "%f\n")
+		    local launchfiles=$(find $(rospack find scalable_launch) -name '*.launch' -type f -printf "%f\n")
 		    COMPREPLY=( $(compgen -W "${launchfiles}" -- $cur) )
 		    ;;
 	    esac
