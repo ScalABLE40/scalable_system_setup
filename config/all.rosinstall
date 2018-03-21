@@ -11,7 +11,7 @@
 
 ### SCALABLE
 - git: {local-name: libs/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
-- git: {local-name: scalable_launch, uri: 'git@github.com:ScalABLE40/scalable_launch.git'}
+- git: {local-name: start/scalable_launch, uri: 'git@github.com:ScalABLE40/scalable_launch.git'}
 
 ### ROBOTS
 - git: {local-name: robots/scalable_robot, uri: 'git@github.com:ScalABLE40/scalable_robot.git'}
