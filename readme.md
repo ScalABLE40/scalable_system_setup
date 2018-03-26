@@ -9,6 +9,8 @@ To initialize your SCALABLE workspace run:
 
 > cd scalable_workspace  
 > wstool init src https://github.com/ScalABLE40/scalable_system_setup/raw/master/config/scalable.rosinstall 
+> rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y
+> catkin build
 
 ### Bash commands
 
