@@ -30,7 +30,7 @@ print_info "UPDATING WORKSPACE CONFIG FILE"
 cd $workspace_source_dir && cp ${setup_package_dir}/../config/${installfile} ./.rosinstall
 
 print_info "UPDATING WORKSPACE"
-cd $workspace_source_dir && wstool up
+cd $workspace_source_dir && wstool up -j 8
 
 
 
