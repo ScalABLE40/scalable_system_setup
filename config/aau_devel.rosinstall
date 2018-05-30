@@ -9,6 +9,7 @@
 - git: {local-name: libs/vfk_msb_client, uri: 'git@github.com:ScalABLE40/vfk_msb_client.git'}
 - git: {local-name: libs/vicon/cppViconStream, uri: 'https://gitlab.com/hwopereis/cppViconStream.git', version: 'master'}
 - git: {local-name: libs/vicon/ros_viconstream, uri: 'https://gitlab.com/hwopereis/ros_viconstream.git', version: 'master'}
+- git: {local-name: libs/wsg50-ros-pkg, uri: 'git@git.rvmi.aau.dk:rvmi/wsg50-ros-pkg.git'}
 
 ### SCALABLE
 - git: {local-name: libs/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
@@ -22,5 +23,5 @@
 - git: {local-name: skills/scalable_skills_aau, uri: 'git@github.com:ScalABLE40/scalable_skills_aau.git'}
 
 ### SANDBOX CTRL
-- git: {local-name: libs/sandbox, uri: 'git@git.rvmi.aau.dk:daw/sandbox.git'}
+- git: {local-name: libs/sandbox, uri: 'git@git.rvmi.aau.dk:AAU-Scalable/sandbox.git'}
 - git: {local-name: skiros2_sandbox_ctrl, uri: 'git@git.rvmi.aau.dk:AAU-Scalable/skiros2_sandbox_ctrl.git'}
