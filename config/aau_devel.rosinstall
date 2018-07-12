@@ -25,4 +25,3 @@
 
 ### SANDBOX CTRL
 - git: {local-name: libs/sandbox, uri: 'git@git.rvmi.aau.dk:AAU-Scalable/sandbox.git'}
-- git: {local-name: skiros2_sandbox_ctrl, uri: 'git@git.rvmi.aau.dk:AAU-Scalable/skiros2_sandbox_ctrl.git'}
