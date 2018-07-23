@@ -1,24 +1,42 @@
 SCALABLE system setup
 =======
 
-Last update: 20/12/2017  
+Last update: 07/23/2018 by Ludovic
 
 ### Fresh install
+First [Install ROS Kinetic](http://wiki.ros.org/kinetic/Installation)
 
-To initialize your SCALABLE workspace run:
+Then the wstools and catkin-tools:
+> $ sudo apt-get install python-wstool python-catkin-tools
 
-> cd scalable_workspace  
-> wstool init src https://github.com/ScalABLE40/scalable_system_setup/raw/master/config/scalable.rosinstall  
+Create new workspace:
+> $ cd ~  
+> $ mkdir scalable_ws  
 
-> rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y  
-> catkin build
+Initialize your SCALABLE workspace:
+
+> $ cd scalable_ws  
+> $ wstool init src https://raw.githubusercontent.com/ScalABLE40/scalable_system_setup/master/config/release.rosinstall  
+> $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y  
+> $ catkin build  
+> $ source devel/setup.bash  
+
+### Updating the workspace from source
+To update the workspace run:
+
+> $ scalable update release.rosinstall
+
+The default rosinstall is <code>release.rosinstall</code>. See all rosinstall in <code>scalable_system_setup/config</code>.
 
 ### Bash commands
+Source the workspace:
+> $ cd ~/scalable_ws/  
+> $ source devel/setup.bash  
 
-After running catkin make some bash commands will be available. (check them out typing scalable and tab).
+Build the workspace:
+> $ catkin build
 
-To update the workspace run:  
+Run the tests:
+> $ catkin run_tests
 
-> scalable update my.rosinstall
-
-The default rosinstall is <code>scalable.rosinstall</code>. See all rosinstall in <code>scalable_system_setup/config</code>.
+After running catkin build some bash commands will be available. (check them out typing scalable and tab).
