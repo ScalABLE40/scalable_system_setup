@@ -1,19 +1,21 @@
 # THIS IS THE MAIN ROSINSTALL FILE FOR SCALABLE
 
 ### LIBS
-- git: {local-name: libs/iiwa_stack, uri: 'git@github.com:SalvoVirga/iiwa_stack.git', version: 'master'}
 - git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:ScalABLE40/skiros2.git'}
 - git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:ScalABLE40/skiros2_std_lib.git'}
 - git: {local-name: libs/skiros2/skiros2_template_lib, uri: 'git@github.com:ScalABLE40/skiros2_template_lib.git'}
 - git: {local-name: libs/skiros2/skiros2_test_lib, uri: 'git@github.com:ScalABLE40/skiros2_test_lib.git'}
 - git: {local-name: libs/vfk_msb_client, uri: 'git@github.com:ScalABLE40/vfk_msb_client.git'}
+- git: {local-name: libs/scalable_msgs, uri: 'git@github.com:ScalABLE40/scalable_msgs.git'}
+- git: {local-name: libs/skill_hardware_remapper, uri: 'git@github.com:ScalABLE40/skill_hardware_remapper.git'}
 
 ### SCALABLE
-- git: {local-name: libs/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
+- git: {local-name: system_setup/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
 - git: {local-name: start/scalable_launch, uri: 'git@github.com:ScalABLE40/scalable_launch.git'}
 
 ### ROBOTS
 - git: {local-name: robots/scalable_robot, uri: 'git@github.com:ScalABLE40/scalable_robot.git'}
+- git: {local-name: robots/iiwa_stack, uri: 'git@github.com:ScalABLE40/iiwa_stack.git', version: 'master'}
 
 ### SKILLS
 - git: {local-name: skills/scalable_skills_common, uri: 'git@github.com:ScalABLE40/scalable_skills_common.git'}
