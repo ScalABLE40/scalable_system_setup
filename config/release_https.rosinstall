@@ -1,4 +1,4 @@
-https://github.com/ScalABLE40/scalable_system_setup.git
+### CORE
 - git: {local-name: libs/skiros2/skiros2, uri: 'https://github.com/ScalABLE40/skiros2.git'}
 - git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'https://github.com/ScalABLE40/skiros2_std_lib.git'}
 - git: {local-name: libs/skiros2/skiros2_template_lib, uri: 'https://github.com/ScalABLE40/skiros2_template_lib.git'}
