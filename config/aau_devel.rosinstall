@@ -1,6 +1,7 @@
 # THIS IS THE MAIN ROSINSTALL FILE FOR AAU DEVELOPEMENT
 
 ### LIBS
+- git: {local-name: libs/rosmon, uri: 'git@github.com:xqms/rosmon.git'}
 - git: {local-name: libs/iiwa_stack, uri: 'git@github.com:SalvoVirga/iiwa_stack.git', version: 'master'}
 - git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:RVMI/skiros2.git'}
 - git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:RVMI/skiros2_std_lib.git'}
