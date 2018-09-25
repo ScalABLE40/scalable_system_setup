@@ -29,6 +29,7 @@
 ### SKILLS
 - git: {local-name: skills/scalable_skills_common, uri: 'git@github.com:ScalABLE40/scalable_skills_common.git'}
 - git: {local-name: skills/scalable_skills_aau, uri: 'git@github.com:ScalABLE40/scalable_skills_aau.git'}
+- git: {local-name: skills/skills_sandbox, uri: 'git@github.com:RVMI/skills_sandbox.git'}
 
 ### SANDBOX CTRL
 - git: {local-name: libs/sandbox, uri: 'git@git.rvmi.aau.dk:AAU-Scalable/sandbox.git'}
