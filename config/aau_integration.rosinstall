@@ -21,7 +21,7 @@
 - git: {local-name: start/scalable_launch, uri: 'git@github.com:ScalABLE40/scalable_launch.git'}
 
 ### ROBOTS
-- git: {local-name: robots/bh_robot, uri: 'git@git.rvmi.aau.dk:rvmi/scalable_robot.git' }
+- git: {local-name: robots/scalable_robot, uri: 'git@git.rvmi.aau.dk:rvmi/scalable_robot.git' }
 
 ### SKILLS
 - git: {local-name: skills/scalable_skills_common, uri: 'git@github.com:ScalABLE40/scalable_skills_common.git'}
