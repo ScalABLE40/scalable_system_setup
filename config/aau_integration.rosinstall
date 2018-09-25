@@ -7,8 +7,6 @@
 - git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:RVMI/skiros2_std_lib.git'}
 - git: {local-name: libs/skiros2/skiros2_template_lib, uri: 'git@github.com:RVMI/skiros2_template_lib.git'}
 - git: {local-name: libs/skiros2/skiros2_test_lib, uri: 'git@github.com:RVMI/skiros2_test_lib.git'}
-- git: {local-name: libs/vicon/cppViconStream, uri: 'https://gitlab.com/hwopereis/cppViconStream.git', version: 'master'}
-- git: {local-name: libs/vicon/ros_viconstream, uri: 'https://gitlab.com/hwopereis/ros_viconstream.git', version: 'master'}
 - git: {local-name: libs/wsg50-ros-pkg, uri: 'git@git.rvmi.aau.dk:rvmi/wsg50-ros-pkg.git', version: 'r1'}
 - git: {local-name: libs/servo_ik, uri: 'git@github.com:RVMI/servo_ik.git'}
 #MES integration
