@@ -2,8 +2,8 @@
 Changelog for package scalable_system_setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2018-11-09)
+------------------
 * Updated name of scalale_msgs to osps_msgs
 * Contributors: francesco
 
