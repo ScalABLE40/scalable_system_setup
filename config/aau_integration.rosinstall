@@ -8,7 +8,8 @@
 - git: {local-name: libs/skiros2/skiros2_template_lib, uri: 'git@github.com:RVMI/skiros2_template_lib.git'}
 - git: {local-name: libs/skiros2/skiros2_test_lib, uri: 'git@github.com:RVMI/skiros2_test_lib.git'}
 - git: {local-name: libs/wsg50-ros-pkg, uri: 'git@git.rvmi.aau.dk:rvmi/wsg50-ros-pkg.git', version: 'r1'}
-- git: {local-name: libs/servo_ik, uri: 'git@github.com:RVMI/servo_ik.git'}
+- git: {local-name: libs/low_level_logic, uri: 'git@github.com:ScalABLE40/low_level_logic.git'}
+
 #MES integration
 - git: {local-name: libs/vfk_msb_client, uri: 'git@github.com:ScalABLE40/vfk_msb_client.git'}
 - git: {local-name: libs/osps_msgs, uri: 'git@github.com:ScalABLE40/osps_msgs.git'}
@@ -25,5 +26,3 @@
 - git: {local-name: skills/scalable_skills_common, uri: 'git@github.com:ScalABLE40/scalable_skills_common.git'}
 - git: {local-name: skills/scalable_skills_aau, uri: 'git@github.com:ScalABLE40/scalable_skills_aau.git'}
 
-### SANDBOX CTRL
-- git: {local-name: libs/sandbox, uri: 'git@git.rvmi.aau.dk:AAU-Scalable/sandbox.git'}
