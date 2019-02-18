@@ -10,7 +10,7 @@
 - git: {local-name: libs/vicon/cppViconStream, uri: 'https://gitlab.com/hwopereis/cppViconStream.git', version: 'master'}
 - git: {local-name: libs/vicon/ros_viconstream, uri: 'https://gitlab.com/hwopereis/ros_viconstream.git', version: 'master'}
 - git: {local-name: libs/wsg50-ros-pkg, uri: 'git@git.rvmi.aau.dk:rvmi/wsg50-ros-pkg.git', version: 'r1'}
-- git: {local-name: libs/servo_ik, uri: 'git@github.com:RVMI/servo_ik.git'}
+- git: {local-name: libs/low_level_logics, uri: 'git@github.com:ScalABLE40/low_level_logics.git'}
 #MES integration
 - git: {local-name: libs/vfk_msb_client, uri: 'git@github.com:ScalABLE40/vfk_msb_client.git'}
 - git: {local-name: libs/osps_msgs, uri: 'git@github.com:ScalABLE40/osps_msgs.git'}
