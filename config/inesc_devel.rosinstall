@@ -1,0 +1,12 @@
+# THIS IS THE MAIN ROSINSTALL FILE FOR INESC DEVELOPEMENT
+
+### LIBS
+- git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:ScalABLE40/skiros2.git'}
+- git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:ScalABLE40/skiros2_std_lib.git'}
+
+### Skills
+- git: {local-name: skills/skiros2_inesc_lib, uri: 'git@github.com:ScalABLE40/skiros2_inesc_lib.git'}
+
+#Action servers
+- git: {local-name: libs/outcome_skill, uri: 'git@github.com:ScalABLE40/outcome_skill.git'}
+- git: {local-name: libs/wait_skill, uri: 'git@github.com:ScalABLE40/wait_skill.git'}
