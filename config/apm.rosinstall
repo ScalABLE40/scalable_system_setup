@@ -1,0 +1,6 @@
+# THIS IS THE ROSINSTALL FILE FOR APM interfaces integration
+
+# MES integration
+- git: {local-name: libs/vfk_msb_client, uri: 'git@github.com:ScalABLE40/vfk_msb_client.git'}
+- git: {local-name: libs/osps_msgs, uri: 'git@github.com:ScalABLE40/osps_msgs.git'}
+- git: {local-name: libs/skiros2/skiros2_scalable_interface, uri: 'git@github.com:ScalABLE40/skiros2_scalable_interface.git'}

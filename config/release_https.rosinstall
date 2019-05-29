@@ -1,15 +1,13 @@
 ### CORE
 - git: {local-name: libs/skiros2/skiros2, uri: 'https://github.com/ScalABLE40/skiros2.git'}
 - git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'https://github.com/ScalABLE40/skiros2_std_lib.git'}
-- git: {local-name: libs/skiros2/skiros2_template_lib, uri: 'https://github.com/ScalABLE40/skiros2_template_lib.git'}
-- git: {local-name: libs/skiros2/skiros2_test_lib, uri: 'https://github.com/ScalABLE40/skiros2_test_lib.git'}
 - git: {local-name: libs/vfk_msb_client, uri: 'https://github.com/ScalABLE40/vfk_msb_client.git'}
 - git: {local-name: libs/osps_msgs, uri: 'https://github.com/ScalABLE40/osps_msgs.git'}
 - git: {local-name: libs/skill_hardware_remapper, uri: 'https://github.com/ScalABLE40/skill_hardware_remapper.git'}
 - git: {local-name: libs/iiwa_stack, uri: 'https://github.com/ScalABLE40/iiwa_stack.git', version: 'master'}
 
 ### SCALABLE
-- git: {local-name: system_setup/scalable_system_setup, uri: 'https://github.com/ScalABLE40/scalable_system_setup.git'}
+- git: {local-name: libs/scalable_system_setup, uri: 'https://github.com/ScalABLE40/scalable_system_setup.git'}
 - git: {local-name: start/scalable_launch, uri: 'https://github.com/ScalABLE40/scalable_launch.git'}
 
 ### ROBOTS
