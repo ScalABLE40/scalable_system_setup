@@ -4,6 +4,7 @@
 - git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:ScalABLE40/skiros2.git'}
 - git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:ScalABLE40/skiros2_std_lib.git'}
 - git: {local-name: libs/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
+- git: {local-name: libs/path_assigner, uri: 'git@github.com:ScalABLE40/path_assigner.git'}
 
 ### Skills
 - git: {local-name: skills/skiros2_inesc_lib, uri: 'git@github.com:ScalABLE40/skiros2_inesc_lib.git'}
