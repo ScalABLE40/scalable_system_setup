@@ -13,4 +13,4 @@
 #Action servers
 - git: {local-name: libs/skill_servers/outcome_skill, uri: 'git@github.com:ScalABLE40/outcome_skill.git'}
 - git: {local-name: libs/skill_servers/wait_skill, uri: 'git@github.com:ScalABLE40/wait_skill.git'}
-- git: {local-name: libs/skill_servers/drive_skill, uri: 'git@github.com:ScalABLE40/drive_skill.git'}
+- git: {local-name: libs/skill_servers/drive_skill, uri: 'git@github.com:ScalABLE40/drive_skill.git', version: 'paulo_develop'}
