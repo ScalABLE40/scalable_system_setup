@@ -1,8 +1,8 @@
 # THIS IS THE ROSINSTALL FILE FOR APM interfaces integration
 
 ### LIBS
-- git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:RVMI/skiros2.git', version: 'develop'}
-- git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:RVMI/skiros2_std_lib.git', version: 'develop'}
+- git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:ScalABLE40/skiros2.git', version: 'develop'}
+- git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:ScalABLE40/skiros2_std_lib.git', version: 'develop'}
 
 ### SCALABLE
 - git: {local-name: libs/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
