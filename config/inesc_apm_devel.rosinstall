@@ -1,12 +1,12 @@
 # THIS IS THE ROSINSTALL FILE FOR APM interfaces integration
 
 ### LIBS
-- git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:RVMI/skiros2.git'}
-- git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:RVMI/skiros2_std_lib.git'}
+- git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:RVMI/skiros2.git', version: 'develop'}
+- git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:RVMI/skiros2_std_lib.git', version: 'develop'}
 
 ### SCALABLE
 - git: {local-name: libs/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
-- git: {local-name: start/scalable_launch, uri: 'git@github.com:ScalABLE40/scalable_launch.git'}
+- git: {local-name: start/scalable_launch, uri: 'git@github.com:ScalABLE40/scalable_launch.git', version: 'develop'}
 
 ### SKILLS
 - git: {local-name: skills/scalable_skills_common, uri: 'git@github.com:ScalABLE40/scalable_skills_common.git'}
@@ -14,4 +14,4 @@
 # MES integration
 - git: {local-name: libs/vfk_msb_client, uri: 'git@github.com:ScalABLE40/vfk_msb_client.git'}
 - git: {local-name: libs/osps_msgs, uri: 'git@github.com:ScalABLE40/osps_msgs.git'}
-- git: {local-name: libs/skiros2/skiros2_scalable_interface, uri: 'git@github.com:ScalABLE40/skiros2_scalable_interface.git'}
+- git: {local-name: libs/skiros2/skiros2_scalable_interface, uri: 'git@github.com:ScalABLE40/skiros2_scalable_interface.git', version: 'develop'}
