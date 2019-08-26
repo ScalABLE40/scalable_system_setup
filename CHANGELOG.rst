@@ -2,6 +2,25 @@
 Changelog for package scalable_system_setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Updated roinstall files
+* Fixed vfk_msb_client to version 1.5.1
+* Changed skiros base repo for apm rosinstall
+* Change repos branches for apm testing
+* Added rosinstall for apm testing
+* Changed drive skill default branch
+* Added navigation config package to rosinstall
+* Reorganized rosinstall files
+* Added path assigner to rosinstall
+* Updated inesc devel rosinstall
+* Added ros install file for inesc skills integration
+* Update AAU devel rosinstall with Low Level Logics
+* Misspelling fix2
+* Mispelling fix
+* Replaced sandbox with low_level_logic package
+* Contributors: DavidWuthier, Francesco, RvmiLab, francesco
+
 1.0.1 (2018-11-09)
 ------------------
 * Updated name of scalale_msgs to osps_msgs
