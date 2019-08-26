@@ -1,4 +1,4 @@
-# THIS IS THE FULL ROSINSTALL FILE FOR SCALABLE
+# THIS IS THE ROSINSTALL FILE FOR ARM MOTION
 
 ### LIBS
 - git: {local-name: libs/rosmon, uri: 'git@github.com:xqms/rosmon.git'}

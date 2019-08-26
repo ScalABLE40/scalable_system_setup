@@ -1,12 +1,16 @@
-# THIS IS THE MAIN ROSINSTALL FILE FOR SCALABLE
+# THIS IS THE ROSINSTALL FILE FOR PSA DEMO RELEASE
 
 ### LIBS
+- git: {local-name: libs/rosmon, uri: 'git@github.com:xqms/rosmon.git'}
 - git: {local-name: libs/skiros2/skiros2, uri: 'git@github.com:ScalABLE40/skiros2.git'}
 - git: {local-name: libs/skiros2/skiros2_std_lib, uri: 'git@github.com:ScalABLE40/skiros2_std_lib.git'}
+- git: {local-name: libs/skiros2/skiros2_scalable_interface, uri: 'git@github.com:ScalABLE40/skiros2_scalable_interface.git'}
 - git: {local-name: libs/vfk_msb_client, uri: 'git@github.com:ScalABLE40/vfk_msb_client.git'}
 - git: {local-name: libs/osps_msgs, uri: 'git@github.com:ScalABLE40/osps_msgs.git'}
 - git: {local-name: libs/skill_hardware_remapper, uri: 'git@github.com:ScalABLE40/skill_hardware_remapper.git'}
 - git: {local-name: libs/iiwa_stack, uri: 'git@github.com:ScalABLE40/iiwa_stack.git', version: 'master'}
+- git: {local-name: libs/gazebo_models_psa, uri: 'git@github.com:RVMI/gazebo_models_psa.git'}
+- git: {local-name: libs/wsg50-ros-pkg, uri: 'git@github.com:RVMI/wsg50-ros-pkg.git', version: 'r1'}
 
 ### SCALABLE
 - git: {local-name: libs/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}
