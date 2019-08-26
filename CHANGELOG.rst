@@ -2,8 +2,8 @@
 Changelog for package scalable_system_setup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.2 (2019-08-26)
+------------------
 * Updated roinstall files
 * Fixed vfk_msb_client to version 1.5.1
 * Changed skiros base repo for apm rosinstall
