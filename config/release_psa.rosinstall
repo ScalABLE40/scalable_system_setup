@@ -12,6 +12,10 @@
 - git: {local-name: libs/gazebo_models_psa, uri: 'git@github.com:RVMI/gazebo_models_psa.git'}
 - git: {local-name: libs/wsg50-ros-pkg, uri: 'git@github.com:RVMI/wsg50-ros-pkg.git', version: 'r1'}
 - git: {local-name: libs/low_level_logics, uri: 'git@github.com:ScalABLE40/low_level_logics.git'}
+- git: {local-name: libs/vision, uri: 'git@github.com:ScalABLE40/vision.git'}
+- git: {local-name: libs/vision_skills, uri: 'git@github.com:ScalABLE40/vision_skills.git'}
+- git: {local-name: libs/realsense, uri: 'git@github.com:intel-ros/realsense.git', version: 'development'}
+- git: {local-name: libs/ddynamic_reconfigure, uri: 'git@github.com:pal-robotics/ddynamic_reconfigure.git', version: 'kinetic-devel'}
 
 ### SCALABLE
 - git: {local-name: libs/scalable_system_setup, uri: 'git@github.com:ScalABLE40/scalable_system_setup.git'}

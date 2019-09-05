@@ -18,7 +18,7 @@ function scalable() {
 	    ;;
 	L|LAUNCH)
 	    shift
-	    rosrun rosmon rosmon --name=rosmon scalable_launch $*
+	    mon launch scalable_launch $*
 	    ;;
   u|update)
 	    shift
