@@ -21,19 +21,21 @@ Initialize your SCALABLE workspace:
 
 > $ cd scalable_ws  
 If you use SSH:  
-> $ wstool init src https://raw.githubusercontent.com/ScalABLE40/scalable_system_setup/master/config/release.rosinstall  
+> $ wstool init src https://raw.githubusercontent.com/ScalABLE40/scalable_system_setup/master/config/release_psa.rosinstall  
 Otherwise:  
-> $ wstool init src https://raw.githubusercontent.com/ScalABLE40/scalable_system_setup/master/config/release_https.rosinstall  
+> $ wstool init src https://raw.githubusercontent.com/ScalABLE40/scalable_system_setup/master/config/release_psa_https.rosinstall  
 > $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y  
 > $ catkin build  
 > $ source devel/setup.bash  
+> $ roscd scalable_launch/scripts
+> $ ./install_dependencies.sh
 
 ### Updating the workspace from source
 To update the workspace run:
 
-> $ scalable update release.rosinstall
+> $ scalable update release_psa.rosinstall
 
-The default rosinstall is <code>release.rosinstall</code>. See all rosinstall in <code>scalable_system_setup/config</code>.
+The default rosinstall is <code>release_psa.rosinstall</code>. See all rosinstall in <code>scalable_system_setup/config</code>.
 
 ### Bash commands
 Source the workspace:
