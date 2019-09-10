@@ -21,8 +21,10 @@ Initialize your SCALABLE workspace:
 
 > $ cd scalable_ws  
 If you use SSH:  
-> $ wstool init src https://raw.githubusercontent.com/ScalABLE40/scalable_system_setup/master/config/release_psa.rosinstall  
-Otherwise:  
+> $ wstool init src https://raw.githubusercontent.com/ScalABLE40/scalable_system_setup/master/config/release_psa.rosinstall
+
+or with https:
+
 > $ wstool init src https://raw.githubusercontent.com/ScalABLE40/scalable_system_setup/master/config/release_psa_https.rosinstall  
 > $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y  
 > $ catkin build  
