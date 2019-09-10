@@ -27,7 +27,7 @@ Otherwise:
 > $ rosdep install --from-paths src --ignore-src --rosdistro=kinetic -y  
 > $ catkin build  
 > $ source devel/setup.bash  
-> $ roscd scalable_launch/scripts
+> $ roscd scalable_launch/scripts  
 > $ ./install_dependencies.sh
 
 ### Updating the workspace from source
