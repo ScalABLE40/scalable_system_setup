@@ -9,8 +9,8 @@
 - git: {local-name: libs/osps_msgs, uri: 'git@github.com:ScalABLE40/osps_msgs.git'}
 - git: {local-name: libs/skill_hardware_remapper, uri: 'git@github.com:ScalABLE40/skill_hardware_remapper.git'}
 - git: {local-name: libs/iiwa_stack, uri: 'git@github.com:ScalABLE40/iiwa_stack.git', version: 'master'}
-- git: {local-name: libs/gazebo_models_psa, uri: 'git@github.com:RVMI/gazebo_models_psa.git'}
-- git: {local-name: libs/wsg50-ros-pkg, uri: 'git@github.com:RVMI/wsg50-ros-pkg.git', version: 'r1'}
+- git: {local-name: libs/gazebo_models_psa, uri: 'git@github.com:ScalABLE40/gazebo_models_psa.git'}
+- git: {local-name: libs/wsg50-ros-pkg, uri: 'git@github.com:ScalABLE40/wsg50-ros-pkg.git', version: 'master'}
 - git: {local-name: libs/low_level_logics, uri: 'git@github.com:ScalABLE40/low_level_logics.git'}
 
 ### VISION
