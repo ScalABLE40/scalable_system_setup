@@ -20,7 +20,7 @@
 - git: {local-name: libs/ddynamic_reconfigure, uri: 'https://github.com/pal-robotics/ddynamic_reconfigure.git', version: 'kinetic-devel'}
 
 ### DRIVE
-- git: {local-name: libs/skill_servers/drive_skill, uri: 'https://github.com/ScalABLE40/drive_skill.git', version: 'paulo_develop'}
+- git: {local-name: libs/skill_servers/drive_skill, uri: 'https://github.com/ScalABLE40/drive_skill.git', version: 'master'}
 - git: {local-name: libs/path_assigner, uri: 'https://github.com/ScalABLE40/path_assigner.git'}
 - git: {local-name: libs/scalable_navigation_config, uri: 'https://github.com/ScalABLE40/scalable_navigation_config.git'}
 - git: {local-name: skills/skiros2_inesc_lib, uri: 'https://github.com/ScalABLE40/skiros2_inesc_lib.git'}
